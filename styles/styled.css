@@ -32,7 +32,7 @@ main {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #00796b;
+  background-color: skyblue;
   color: var(--bg-primary);
   flex-wrap: wrap;
   transition: all 0.3s ease;
@@ -119,7 +119,7 @@ main {
 
 .title {
   font-size: 2rem;
-  color: #00796b;
+  color: skyblue;
   transition: color 0.3s ease;
   text-transform: uppercase;
 }
@@ -141,13 +141,13 @@ main {
 
 .content-description figure img:hover{
   transform: scale(1.1);
-  border: 1px solid #00796b;
+  border: 1px solid skyblue;
   border-radius: 50%;
   transition: transform 0.5s;
 }
 
 button {
-  background-color: #00796b;
+  background-color: skyblue;
   color: var(--bg-primary);
   padding: 10px 20px;
   border: none;
@@ -210,7 +210,7 @@ aside {
 }
 
 .social-media ul li a {
-  color: #00796b;
+  color: skyblue;
   text-decoration: none;
   transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -222,7 +222,7 @@ aside {
 
 /* Footer */
 footer {
-  background-color: #00796b;
+  background-color: skyblue;
   color: var(--bg-primary);
   text-align: center;
   padding: 15px 0;
