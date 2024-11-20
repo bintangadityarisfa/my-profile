@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page Dicoding</title>
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="styles/styled.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome 5.15.4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <figure class="logo">
+        <img src="image/amba.png" alt="Erlangga" />
+        <figcaption>BAR</figcaption>
+      </figure>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#favorite">Favorite</a></li>
+          <li><a href="#pengalaman">Pengalaman</a></li>
+          <li><a onclick="color()">Mode</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="container">
+      <div class="container-content">
+      <article class="content card">
+        <section class="content-description">
+          <h1 class="title">Tentang Saya</h1>
+          <p>
+          Saya bintang,saya kelas 11 rpl 4,saya adalah anak kedua dari 2 bersaudara,saya tinggal bersama kakek dan nenek saya,orang tua saya bekerja diluar kota,itu sebabnya saya tinggal bersama kakek dan nenek saya
+          </p>
+          <button><a href="https://www.instagram.com/smilee_mile/profilecard/?igsh=MTl5aXpsOHNpc2J6dw==">Instagram Saya</a></button>
+        </section>
+      </article>
+
+      <article class="content card">
+        <section class="content-description">
+          <h3 id="favorite" class="title">Hobi</h3>
+          <figure>
+            <img src="image/coding.jpeg" alt="raket" />
+          </figure>
+          <p>
+         Saya suka coding,saya memulai belajar coding dari beberapa hari sebelum masuk smkn9,hal yang membuat saya suka coding karena apabila program tersebut selesai,maka rasanya senag sekali
+          </p>
+        </section>
+
+        <section class="content-description">
+          <h3 class="title">Pelajaran Favorit</h3>
+          <figure>
+            <img src="image/coding.jpeg" alt="math" />
+          </figure>
+          <p>
+            Pelajaran yang saya suka adalah PW dan PBO,karena 2 pelajaran itu membahas seputar coding yg dimana bahasanya sudah lumayan saya pahami
+          </p>
+        </section>
+
+        <section class="content-description">
+          <h1 class="title">Makanan Favorit</h1>
+          <figure>
+            <img src="image/ayam.jpeg" alt="nasi goreng" />
+          </figure>
+          <p>
+            Saya suka berbagai jenis ayam,hampir semua jenis masakan ayam saya suka
+          </p>
+        </section>
+      </article>
+      
+      <article class="content card">
+        <section id="pengalaman" class="content-description">
+          <h1 class="title">Pengalaman</h1>
+          <p>
+            Pengalaman saya adalah saya pernah menjadi santri di pondok pesantren ar-raudhatul hasanah,saya juga pernah menjadi wakil ketua rohis dismkn9. 
+          </p>
+          <p>
+            untuk sedikit cerita tambahan,saya juga pernah selamat dari bangunan yang terbakar
+          </p>
+        </section>
+      </article>
+    </div>
+
+      <aside>
+        <article class="data card">
+          <figure class="content-image">
+            <img src="image/muka2.jpg" alt="Dicoding Indonesia" />
+          </figure>
+          <figcaption class="content-data">
+            <table>
+              <tr>
+                <td>Nama</td> 
+                <td>Bintang Aditya Risfa</td>
+              </tr>
+              <tr>
+                <td>TTL</td>
+                <td>Pekanbaru, 4 01 2009</td>
+              </tr>
+              <tr>
+                <td>Pendidikan</td>
+                <td>SMKN-9</td>
+              </tr>
+            </table>
+          </figcaption>
+        </article>
+        
+        <article class="social-media card">
+          <ul>
+            <li>
+              <a href="https://youtube.com/@rajifgaming7741?si=CWQirMtt7iYTNqkz"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </li>
+          </ul>
+        </article>
+      </aside>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Rajendra | All Rights Reserved</p>
+    </footer>
+    
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+  </html>
